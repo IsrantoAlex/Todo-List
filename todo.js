@@ -2,14 +2,14 @@ const todoBtn = document.getElementById('td-btn');
 const todoInput = document.getElementById('td-input');
 const todoList = document.getElementById('td-list');
 
-todoBtn.addEventListener('click', addAlert);
+todoBtn.addEventListener('click', adAlert);
 todoList.addEventListener('click', editDelete);
 
 
 
 
 
-function addAlert(event){
+function adAlert(event){
     event.preventDefault();
 
 
